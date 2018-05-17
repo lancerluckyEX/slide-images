@@ -1,0 +1,55 @@
+body {
+    background:url(http://t2.hddhhn.com/uploads/tu/201610/198/scx30045vxd.jpg);
+    background-size:100%;
+}
+.comic-slide {
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.comic-slide-image {
+    display: none;
+}
+.comic-active {
+    display: inline-block;
+}
+.comic-slide-button {
+    right: 0;
+    height: 50px;
+    width: 30px;
+    color: #fff;
+    background: black;
+    opacity: 0.3;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+.comic-slide-button.comic-left {
+    left: 0;
+}
+.comic-slide-button.comic-right {
+    right: 0;
+}
+.comic-vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.comic-slide-indicators {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.comic-slide-indi {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
+.comic-white {
+    background: white;
+}

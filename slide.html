@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>轮播图</title>
+        <link rel="stylesheet" href="./static/css/slide.css">
+    </head>
+    <body>
+        <div class="comic-lunbotu">
+            <div class="comic-slide" data-imgs="4" data-active="0">
+                <img id="id-comicimage-0" class="comic-slide-image comic-active" src="./static/images/one.jpg" alt="">
+                <img id="id-comicimage-1" class="comic-slide-image" src="./static/images/two.jpg" alt="">
+                <img id="id-comicimage-2" class="comic-slide-image" src="./static/images/three.jpg" alt="">
+                <img id="id-comicimage-3" class="comic-slide-image" src="./static/images/four.jpg" alt="">
+
+                <button class="comic-slide-button comic-left comic-vertical-center" data-offset="-1">&lt;</button>
+                <button class="comic-slide-button comic-right comic-vertical-center" data-offset="1">&gt;</button>
+
+                <div class="comic-slide-indicators">
+                    <div id="id-indi-0" class="comic-slide-indi comic-white" data-index="0" ></div>
+                    <div id="id-indi-1" class="comic-slide-indi" data-index="1" ></div>
+                    <div id="id-indi-2" class="comic-slide-indi" data-index="2" ></div>
+                    <div id="id-indi-3" class="comic-slide-indi" data-index="3" ></div>
+                </div>
+            </div>
+        </div>
+        <script src="./route/slide.js"></script>
+    </body>
+</html>
