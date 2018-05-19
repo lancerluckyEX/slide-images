@@ -32,7 +32,6 @@ var removeClassAll = function(className) {
     var elements = es(selector)
     for (var i = 0; i < elements.length; i++) {
         var e = elements[i]
-        //log('classname', className, e)
         e.classList.remove(className)
     }
 }
@@ -171,6 +170,7 @@ var nextindiIndex = function(slide, offset) {
 }
 
 var bindEventindiSlide = function() {
+    //点击小圆点，显示相应图片的函数，有移入移出就可以了
     var selector = '.comic-slide-indi'
     bindAll(selector, 'click', function(event) {
         var indi = event.target
